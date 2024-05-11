@@ -43,7 +43,7 @@ class ShipReportCommand extends Command
         }
 
         $io->progressStart(100);
-        for ($i = 0; $i < 100; $i++) {
+        for ($i = 0; $i < 100; ++$i) {
             $io->progressAdvance();
             usleep(10000);
         }
